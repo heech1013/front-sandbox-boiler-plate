@@ -1,0 +1,16 @@
+{
+  "root": true,
+  "extends": [
+    "@channel.io/eslint-config",
+    "plugin:typescript-sort-keys/recommended"
+  ],
+  "parserOptions": {
+    "project": ["./tsconfig.json"]
+  },
+  "plugins": ["typescript-sort-keys"],
+  "parser": "@typescript-eslint/parser",
+  "rules": {
+    "typescript-sort-keys/interface": "warn",
+    "typescript-sort-keys/string-enum": "warn"
+  }
+}

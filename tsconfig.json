@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "strict": true,
+    "allowJs": false,
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+    "jsx": "react",
+    "noEmit": true,
+    "isolatedModules": true,
+    "skipLibCheck": true,
+    "baseUrl": "./",
+    "paths": {
+      "*": [
+        "node_modules/*",
+      ],
+      "Api/*": ["src/api/*"],
+      "Components/*": ["src/components/*"],
+      "Constants/*": ["src/constants/*"],
+      "Hooks/*": ["src/hooks/*"],
+      "Models/*": ["src/models/*"],
+      "Services/*": ["src/services/*"],
+      "Types/*": ["src/types/*"],
+      "Utils/*": ["src/utils/*"],
+    },
+  },
+  "include": [
+    "src/**/*"
+  ]
+}

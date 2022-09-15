@@ -1,0 +1,33 @@
+{
+  "name": "front-sandbox-boiler-plate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "eslint-all": "eslint 'src/**/*.{js,jsx,ts,tsx}'"
+  },
+  "repository": "https://github.com/heech1013/front-sandbox-boiler-plate.git",
+  "author": "<heech1013@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@channel.io/eslint-config": "^1.4.1",
+    "@channel.io/eslint-plugin": "^1.2.2",
+    "@types/react": "^18.0.20",
+    "@types/react-dom": "^18.0.6",
+    "@typescript-eslint/eslint-plugin": "^5.37.0",
+    "@typescript-eslint/parser": "^5.37.0",
+    "eslint": "^8.23.1",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-import-resolver-typescript": "^3.5.1",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.31.8",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-typescript-sort-keys": "^2.1.0",
+    "typescript": "^4.8.3"
+  }
+}
